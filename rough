@@ -1,0 +1,50 @@
+subjects = ["34", "443", "12"]
+print(subjects[2])
+
+blank = ("XXXXXXXXXXXX")
+Name = input("Enter the name of place, fruit, animal or anything: ")
+res = len(Name)
+print(blank[0:res])
+
+
+
+Name = "Abdul Rehman"
+Place = "Pakistan"
+print(Name.lower().isupper())
+print(len(Place),"hehe")
+print(Name[9].upper(), Name[0], Name[11].upper(), "I")
+print(Name[9].upper(), Name[0], Name[11].upper() + " I")
+print(Place.index("t"))
+print(Place.index("tan"))
+print(Name.replace("Rehman", "Khaliq"))
+a=2
+b=3.214/3
+print((a+b)%2.5)
+print(a, "yes")
+print(abs(b))
+from math import *
+print(sqrt(4))
+print("What is your name?")
+name = input("Ans: ")
+print("Hello " + name + "!")
+num1 = input("Enter the number: ")
+num2  = input("Enter the second number: ")
+result = float(num1)+float(num2)
+print(ceil(result))
+print(factorial(round(result)))
+print(fmod(float(num1), float(num2)))
+
+
+
+name = str("PAKISTAN")
+print(name[0])
+print(name.index("N"))
+
+namec = str("china")
+print("Guess the name of the country! \nEnter an alphabet")
+xes = str("X X X X X")
+name = input(xes)
+if name[0] == namec[0] or namec[1] or namec[2] or namec[3] or namec[4]:
+    for x in namec:
+        print(name[0] == namec[0:])
+
