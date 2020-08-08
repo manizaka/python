@@ -1,0 +1,4 @@
+blank = ("XXXXXXXXXXXX")
+Name = input("Enter the name of place, fruit, animal or anything: ")
+res = len(Name)
+print(blank[0:res])
